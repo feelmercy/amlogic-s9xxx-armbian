@@ -75,6 +75,10 @@ on:
         options:
           - -ophub
           - -yourname
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
 
 env:
   TZ: America/New_York
